@@ -71,9 +71,9 @@ def events():
 
 			if message == "dolar":
 				dolar = consultadolar()
-				text = "El valor del dolar es $"+dolar
+				text = "El valor del dolar es $"+dolar + " pesos chilenos"
 			else:
-				text = "No entiendo"
+				text = "Por favor introduzca la palabra dolar para obtener resultados"
 			
 
 			enviarunmensaje(Authkey,text,roomId)
